@@ -34,3 +34,35 @@ otherwise
 loop three times
     print the output (fruit) to the user
 """
+
+
+import random
+
+def main():
+    for i in range(0, 3):
+        spin()
+
+def spin():
+    rand_num = random.randint(1, 20)
+    output = ""
+    if(rand_num > 15):
+        output = "cherries"
+    elif(rand_num > 10):
+        output = "orange"
+    elif(rand_num > 5):
+        output = "plum"
+    elif(rand_num > 2):
+        output = "melon"
+    elif(rand_num > 1):
+        output = "bell"
+    else:
+        output = "bar"
+
+
+    print(output, end=" ")
+
+# spin() can use this method envoke 3 times spin
+# spin() do not use function main for this method 
+# spin()
+
+main()
