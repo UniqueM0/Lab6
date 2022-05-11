@@ -13,3 +13,24 @@ we iterate over using a loop three times and print the results to the user.
 as an example "plum cherries"
 
 """
+
+"""
+import random
+num = generate random number 
+
+if num is greater than 15,
+    then the result will be "cherries"
+otherwise if num is greater than 10,
+    then the result will be "orange"
+otherwise if num is greater than 5,
+    then the result will be "plum"
+otherwise if num is greater than 2,
+    then the result will be "melon"
+otherwise if num is greater than 1,
+    then the result will be "bell",
+otherwise
+    the result will be "bar"
+
+loop three times
+    print the output (fruit) to the user
+"""
